@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.container{
+        width: 1400px;
+        height: 800px;
+        background-color: white;
+        box-shadow: 0 10px 28px rgb(199, 195, 195); 
+        position: absolute;
+        top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.myImg{
+    position: absolute;
+    right: 0;
+}
+.myLogo{
+    position: absolute;
+    left: 150px;
+    top: 60px;
+}
+.myTitle{
+    position: absolute;
+    left: 150px;
+    top: 160px;
+    font-size: 68px;
+    font-weight: 300;
+    letter-spacing: 20px;
+    color: hsl(0, 36%, 70%);
+}
+.mySub{
+    position: absolute;
+    left: 150px;
+    top: 230px;
+    font-size: 68px;
+    font-weight: 600;
+    letter-spacing: 20px;
+    color:  hsl(0, 6%, 24%);
+}
+h4{
+    position: absolute;
+    left: 150px;
+    bottom: 260px;
+    line-height: 28px;
+    Font-size: 16px;
+    color: hsl(0, 36%, 70%);
+    word-spacing: 1px;
+}
+input{
+    position: absolute;
+    left: 150px;
+    bottom: 180px; 
+    padding: 20px 120px;
+    border-radius: 35px;
+    box-shadow: none;
+    border: 1px solid  hsl(0, 36%, 70%);
+}
+::placeholder{
+    color: hsl(0, 36%, 70%);
+    position: absolute;
+    left: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+.validate{
+    padding: 20px 40px;
+    border: none;
+    position: absolute;
+    left: 510px;
+    box-shadow: 0 10px 28px rgb(199, 195, 195); 
+    background-color: hsl(0, 93%, 68%);
+}
+.validate:hover{
+    background-color: hsl(0, 51%, 84%);
+}
+
+.error{
+    position: absolute;
+    left: 460px;
+    bottom: 198px;
+    display: none;
+}
+.errorMessage{
+    color: hsl(0, 93%, 68%);
+    position: absolute;
+    bottom: 130px;
+    left: 195px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    display: none;
+}
